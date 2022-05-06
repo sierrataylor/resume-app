@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   background-color: #282c34;
-  padding-bottom: 15px;
 }
 
 .App-logo {
@@ -16,7 +15,7 @@
 }
 
 .App-header {
-  min-height: 100vh;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,16 +24,23 @@
   color: white;
 }
 
-.App-intro-p {
-  min-height: 75vh;
-  display: flex;
+.App-common-component {
+  min-height: 25vh;
+  display: block;
   flex-direction: column;
   align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App-button{
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .App-link {
   color: #61dafb;
 }

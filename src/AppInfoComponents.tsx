@@ -23,7 +23,7 @@ export const AppHeader = () => {
 
 export const AppIntroParagraph = () => {
   return(
-      <h2 className="App-intro-p">
+      <h2 className="App-common-component">
           <p>How would your resume hold up against a scanner? 
               Find out by submitting your resume below! 
               (Your information will not be recorded or saved.)
